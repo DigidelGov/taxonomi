@@ -8,7 +8,7 @@ Taxonomin kartlägger var det allmänna brister i att säkerställa att rättigh
 
 Öppna **[taxonomi-dashboarden](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket.
 
-Dashboarden visar alla 75 underkategorier fördelade på tre sektioner och 18 huvudkategorier, med tillsynslager, lagstöd, empiriska källor och medborgarens situation.
+Dashboarden visar alla 75 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exmepel på en situiation med hänvsiningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri. 
 
 ## Ramverkets struktur
 
@@ -24,19 +24,19 @@ Ramverket är organiserat i tre sektioner:
 
 Varje underkategori har ett operativt lager med:
 
-- **Medborgarens situation** — hur barriären upplevs, i medborgarens egna ord
-- **Lagstöd** — vilka lagar som är relevanta för just den barriären
+- **Exempel på situation** — vad som sker, i invånarens egna ord
+- **Lagstöd** — vilka lagar som är relevanta för just den situationen
 - **Tillsynsmyndighet** — vem som ansvarar
 - **Tillsynslucka** — om tillsynen fungerar (Ja/Delvis/Nej) och varför
-- **Rådgivning** — vart medborgaren kan vända sig
-- **Tvist** — var medborgaren kan överklaga eller anmäla
+- **Rådgivning** — var invånaren kan vända sig
+- **Tvist** — var invånaren kan överklaga eller anmäla
 - **Empiriska källor** — forskning, granskningar och rapporter som bekräftar barriären
 
 Av 75 underkategorier har 50 identifierad tillsynslucka, 21 delvis lucka och 4 fungerande tillsyn.
 
 ## Teoretisk grund
 
-Ramverket bygger på Winner (1980) *Do Artifacts Have Politics?*, Feenberg (1992) *Subversive Rationalization: Technology, Power, and Democracy* och Hedström (2004) *Spår av datoriseringens värden*. Gemensamt visar de att teknikens utformning aldrig är neutral — den bär inbyggda antaganden om vilka som ska inkluderas och på vilka villkor.
+Digitala system är inte neutrala verktyg. De är resultatet av förhandlingar där vissa behov värderas, prioriteras och byggs in, medan andra faller bort. Designval avgör vilka som exkluderas, ofta utan att det synliggörs eller ifrågasätts. Denna insikt har teoretisk förankring. Läs mer i **[om ramverket](https://digidelgov.github.io/taxonomi/)**
 
 ## Juridisk förankring
 
@@ -44,7 +44,7 @@ Taxonomin är förankrad i Regeringsformen, Förvaltningslagen, Diskrimineringsl
 
 ## Om DigidelGov
 
-DigidelGov är ett genomförandeprojekt inom SustainGov/Impact Innovation som syftar till att utveckla strukturer och arbetssätt där användarnytta styr digitaliseringsprocessen. Projektet genomförs i samverkan mellan Västra Götalandsregionen (koordinator), Sambruk/Digidel (projektledning), Myndigheten för digital förvaltning (Digg), Region Västernorrland, Region Östergötland, ABF Väst, Färgelanda kommun och Mittuniversitetet.
+DigidelGov är ett genomförandeprojekt inom SustainGov/Impact Innovation. Projektet genomförs i samverkan mellan Västra Götalandsregionen (koordinator), Sambruk/Digidel (projektledning), Myndigheten för digital förvaltning (Digg), Region Västernorrland, Region Östergötland, ABF Väst, Färgelanda kommun och Mittuniversitetet.
 
 Taxonomin utvecklas inom arbetspaket 1 (AP1) och testas av projektparterna under 2026 med sikte på version 2.0.
 
@@ -70,4 +70,4 @@ Du får fritt använda, anpassa och sprida materialet, även kommersiellt, så l
 
 ## Kontakt
 
-DigidelGov via [Digidel](https://digidel.se)
+DigidelGov via [Digidel](https://digidel.se/digidelgov)
