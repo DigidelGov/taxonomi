@@ -38,9 +38,12 @@ header p{color:var(--text-dim);font-size:13px;margin-top:3px}
 @media(max-width:900px){.main{grid-template-columns:1fr}}
 .catlist{background:var(--surface);border:1px solid var(--border-light);border-radius:8px;overflow-y:auto;max-height:78vh}
 .catlist::-webkit-scrollbar{width:4px}.catlist::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
-.grp-hdr{padding:8px 14px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-muted);background:var(--surface2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:2;cursor:pointer;transition:color .12s}
-.grp-hdr:hover{color:var(--accent)}
+.grp-hdr{padding:8px 14px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-muted);background:var(--surface2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:2;cursor:pointer;transition:all .12s;display:flex;justify-content:space-between;align-items:center}
+.grp-hdr::after{content:'\203A';font-size:14px;opacity:.3;transition:all .12s;font-weight:400}
+.grp-hdr:hover{color:var(--accent);background:var(--accent-light)}
+.grp-hdr:hover::after{opacity:.7;transform:translateX(2px)}
 .grp-hdr.selected{color:var(--accent);background:var(--accent-light)}
+.grp-hdr.selected::after{opacity:.7}
 .cat-item{padding:10px 14px;border-bottom:1px solid var(--border-light);cursor:pointer;transition:background .1s;display:flex;align-items:flex-start;gap:9px}
 .cat-item:hover{background:var(--surface2)}
 .cat-item.selected{background:var(--accent-light);border-left:3px solid var(--accent)}
@@ -256,13 +259,9 @@ function renderUnderkatDetail(idx){
   html+='<span class="mtag '+d.lucka_status.toLowerCase()+'">'+luckaLabel+'</span></div></div>';
 
   if(d.situation_exempel){
-    html+='<div class="iblock"><div class="iblock-t">Situationsexempel</div>';
+    html+='<div class="iblock"><div class="iblock-t">Exempel på situation</div>';
     html+='<div class="sit-quote">'+esc(d.situation_exempel)+'</div></div>';
   }
-
-  html+='<div class="lucka-box '+d.lucka_status.toLowerCase()+'">';
-  html+='<div class="iblock-t">Tillsynslucka</div>';
-  html+='<div class="iblock-c" style="font-size:12.5px">'+esc(d.tillsynslucka)+'</div></div>';
 
   if(d.lagstod){
     html+='<div class="iblock"><div class="iblock-t">\u00A7 Lagst\u00f6d</div>';
@@ -279,6 +278,10 @@ function renderUnderkatDetail(idx){
     html+='<div class="iblock" style="margin-top:14px"><div class="iblock-t">Empiriska k\u00e4llor</div>';
     html+='<div class="emp-scroll">'+esc(d.empirisk_kalla)+'</div></div>';
   }
+
+  html+='<div class="lucka-box '+d.lucka_status.toLowerCase()+'" style="margin-top:14px">';
+  html+='<div class="iblock-t">Tillsynslucka</div>';
+  html+='<div class="iblock-c" style="font-size:12.5px">'+esc(d.tillsynslucka)+'</div></div>';
 
   // Collapsed category context
   var c=CATEGORIES[d.tax_kat];
