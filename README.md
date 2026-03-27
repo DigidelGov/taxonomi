@@ -6,7 +6,7 @@ Taxonomin kartlägger var det allmänna brister i att säkerställa att rättigh
 
 ## Interaktiv dashboard
 
-Öppna **[taxonomi-dashboarden](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket.
+Öppna **[taxonomi-utforskaren](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket.
 
 Dashboarden visar alla 75 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exmepel på en situiation med hänvsiningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri. 
 
