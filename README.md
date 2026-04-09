@@ -2,65 +2,69 @@
 
 **Ett ramverk för rättighetsefterlevnad i den digitala välfärdsstaten**
 
-Taxonomin kartlägger var det allmänna brister i att säkerställa att rättigheter och skyldigheter kan utövas på jämlika villkor i en digitaliserad välfärdsstat. Den utgår från gällande lagstiftning, folkrätt och EU:s förklaring om digitala rättigheter och principer.
+Ramverket kartlägger var det allmänna brister i att säkerställa att rättigheter och skyldigheter kan utövas på jämlika villkor i en digitaliserad välfärdsstat. Det utgår från gällande lagstiftning, folkrätt och EU:s förklaring om digitala rättigheter och principer.
 
-## Interaktiv dashboard
+## Interaktiv taxonomi-utforskare
 
 Öppna **[taxonomi-utforskaren](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket.
 
-Dashboarden visar alla 75 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exmepel på en situiation med hänvsiningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri. 
+Utforskaren visar alla 70 underkategorier fördelade på tre sektioner och 17 kategorier. Respektive underkategori presenteras med ett exempel på en situation med hänvisningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri.
 
 ## Ramverkets struktur
 
 Ramverket är organiserat i tre sektioner:
 
-**1. Systembarriärer** — Strukturella hinder i teknikens utformning och infrastruktur som skapar ojämlika villkor för delaktighet. Sex huvudkategorier: infrastrukturell underförsörjning, villkorad digital åtkomst, digitala samhällsfunktioner utan alternativ, digital otrygghet och otydlighet, diskriminerande systemdesign samt ansvarsluckor och bristande styrning.
+**1. Systembarriärer** — Strukturella hinder i teknikens utformning, organisation och infrastruktur som skapar ojämlika villkor. Sju huvudkategorier: fragmenterad grundinfrastruktur, villkorad digital åtkomst, digitalt som enda val, digital otrygghet och otydlighet, diskriminerande systemdesign, ansvar för användbarhet samt ansvarsluckor och bristande styrning.
 
-**2. Sårbarheter** — Livsomständigheter som systemen inte är utformade att hantera. Sju huvudkategorier: ekonomisk utsatthet, funktionsrelaterad exkludering, beroendeposition och digital kontroll, livskris och instabilitet, migrationsstatus och rättsligt skydd, barn och unga samt plattformsstyrt arbete.
+**2. Sårbarheter** — Livsomständigheter som systemen inte är utformade att hantera och som gör att systembarriärer får allvarligare konsekvenser. Sju huvudkategorier: ekonomisk utsatthet, funktionsrelaterad exkludering, beroendeposition och digital kontroll, livskris och instabilitet, barn och unga, migrationsstatus och rättsligt skydd samt plattformsstyrt arbete.
 
-**3. Digital kompetens och delaktighet** — Det allmännas ansvar att organisera bildning, stöd och inflytande för digital delaktighet. Fem huvudkategorier: DigComp som referensram, medie- och informationskunnighet (MIK), orientering och vardagskompetens, stödstrukturernas brister samt digital makt och handlingsutrymme.
+**3. Bildning, egenmakt och delaktighet** — Det allmännas ansvar att upprätthålla förutsättningarna för att den enskilde ska kunna förstå, agera och delta i en digitaliserad välfärdsstat. Tre huvudkategorier: demokratisk förståelse, bildningens förutsättningar samt inflytande och demokratisk insyn.
 
 ## Tillsynslagret
 
 Varje underkategori har ett operativt lager med:
 
 - **Exempel på situation** — vad som sker, i invånarens egna ord
-- **Lagstöd** — vilka lagar som är relevanta för just den situationen
+- **Lagstöd** — vilka lagar som borde skydda den enskilde
 - **Tillsynsmyndighet** — vem som ansvarar
 - **Tillsynslucka** — om tillsynen fungerar (Ja/Delvis/Nej) och varför
-- **Rådgivning** — var invånaren kan vända sig
+- **Rådgivning** — var invånaren och utföraren kan vända sig
 - **Tvist** — var invånaren kan överklaga eller anmäla
-- **Empiriska källor** — forskning, granskningar och rapporter som bekräftar barriären
+- **Bakgrund och fakta** — forskning, granskningar och rapporter som bekräftar barriären
 
-Av 75 underkategorier har 50 identifierad tillsynslucka, 21 delvis lucka och 4 fungerande tillsyn.
+Av 70 underkategorier har 50 identifierad tillsynslucka, 20 delvis lucka och 0 fungerande tillsyn.
 
 ## Teoretisk grund
 
-Digitala system är inte neutrala verktyg. De är resultatet av förhandlingar där vissa behov värderas, prioriteras och byggs in, medan andra faller bort. Designval avgör vilka som exkluderas, ofta utan att det synliggörs eller ifrågasätts. Denna insikt har teoretisk förankring. Läs mer i **[om ramverket](https://digidelgov.github.io/taxonomi/)**
+Digitala system är inte neutrala verktyg. De är resultatet av förhandlingar där vissa behov värderas, prioriteras och byggs in, medan andra faller bort. Designval avgör vilka som exkluderas, ofta utan att det synliggörs eller ifrågasätts. Denna insikt har teoretisk förankring i Akrich (1992), Winner (1980), Feenberg (1992) och Hedström (2004). Läs mer i **[om ramverket](https://digidelgov.github.io/taxonomi/)**.
 
 ## Juridisk förankring
 
-Taxonomin är förankrad i Regeringsformen, Förvaltningslagen, Diskrimineringslagen, Hälso- och sjukvårdslagen, Socialtjänstlagen, Konsumentköplagen samt Europaparlamentets och rådets förordning (EU) 2022/2065 om digitala tjänster (DSA). EU:s förklaring om digitala rättigheter och principer för det digitala decenniet (2023) används som brygga till de europeiska åtagandena.
+Ramverket vilar på tre typer av normativa grunder: bindande svensk rätt, folkrättsliga åtaganden och vägledande politiska principer.
+
+Bindande svensk rätt omfattar Regeringsformen, Förvaltningslagen, Diskrimineringslagen, Hälso- och sjukvårdslagen, Socialtjänstlagen och Konsumentköplagen, liksom EU-förordningar och EU-direktiv med direkt eller harmoniserad verkan i svensk rätt, däribland Europaparlamentets och rådets förordning (EU) 2022/2065 om digitala tjänster (DSA).
+
+EU:s förklaring om digitala rättigheter och principer för det digitala decenniet (2023) används som brygga till de europeiska åtagandena.
 
 ## Om DigidelGov
 
 DigidelGov är ett genomförandeprojekt inom SustainGov/Impact Innovation. Projektet genomförs i samverkan mellan Västra Götalandsregionen (koordinator), Sambruk/Digidel (projektledning), Myndigheten för digital förvaltning (Digg), Region Västernorrland, Region Östergötland, ABF Väst, Färgelanda kommun och Mittuniversitetet.
 
-Taxonomin utvecklas inom arbetspaket 1 (AP1) och testas av projektparterna under 2026 med sikte på version 2.0.
+Ramverket utvecklas inom arbetspaket 1 (AP1) och testas av projektparterna under 2026 med sikte på version 2.0.
 
 ## Filer i detta repository
 
 | Fil | Beskrivning |
 |-----|-------------|
-| `index.html` | Interaktiv dashboard — öppna i webbläsare eller via GitHub Pages |
+| `index.html` | Interaktiv taxonomi-utforskare — öppna i webbläsare eller via GitHub Pages |
 | `LICENSE` | CC BY 4.0 |
 | `README.md` | Denna fil |
 
 ## Version
 
-- **Taxonomi:** v1.4 (2026-03-24)
-- **Tillsynslager:** 2026-03-23
-- **Dashboard:** prototyp
+- **Taxonomi:** v1.5
+- **Tillsynslager:** v1.5
+- **Taxonomi-utforskare:** arbetsversion
 
 ## Licens
 
