@@ -6,9 +6,9 @@ Ramverket kartlägger var det allmänna brister i att säkerställa att rättigh
 
 ## Interaktiv taxonomi-utforskare
 
-Öppna **[taxonomi-utforskaren](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket.
+Öppna **[taxonomi-utforskaren](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket, version 1.6.
 
-Utforskaren visar alla 70 underkategorier fördelade på tre sektioner och 17 kategorier. Respektive underkategori presenteras med ett exempel på en situation med hänvisningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri.
+Utforskaren visar alla 74 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exempel på en situation med hänvisningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri.
 
 ## Ramverkets struktur
 
@@ -16,7 +16,7 @@ Ramverket är organiserat i tre sektioner:
 
 **1. Systembarriärer** — Strukturella hinder i teknikens utformning, organisation och infrastruktur som skapar ojämlika villkor. Sju huvudkategorier: fragmenterad grundinfrastruktur, villkorad digital åtkomst, digitalt som enda val, digital otrygghet och otydlighet, diskriminerande systemdesign, ansvar för användbarhet samt ansvarsluckor och bristande styrning.
 
-**2. Sårbarheter** — Livsomständigheter som systemen inte är utformade att hantera och som gör att systembarriärer får allvarligare konsekvenser. Sju huvudkategorier: ekonomisk utsatthet, funktionsrelaterad exkludering, beroendeposition och digital kontroll, livskris och instabilitet, barn och unga, migrationsstatus och rättsligt skydd samt plattformsstyrt arbete.
+**2. Ojämlikhetsfaktorer** — Livsomständigheter som systemen inte är utformade att hantera och som gör att systembarriärer får allvarligare konsekvenser. Sju huvudkategorier: ekonomisk utsatthet, funktionsrelaterad exkludering, beroendeposition och digital kontroll, livskris och instabilitet, barn och unga, migrationsstatus och rättsligt skydd samt plattformsstyrt arbete.
 
 **3. Bildning, egenmakt och delaktighet** — Det allmännas ansvar att upprätthålla förutsättningarna för att den enskilde ska kunna förstå, agera och delta i en digitaliserad välfärdsstat. Tre huvudkategorier: demokratisk förståelse, bildningens förutsättningar samt inflytande och demokratisk insyn.
 
@@ -31,8 +31,6 @@ Varje underkategori har ett operativt lager med:
 - **Rådgivning** — var invånaren och utföraren kan vända sig
 - **Tvist** — var invånaren kan överklaga eller anmäla
 - **Bakgrund och fakta** — forskning, granskningar och rapporter som bekräftar barriären
-
-Av 70 underkategorier har 50 identifierad tillsynslucka, 20 delvis lucka och 0 fungerande tillsyn.
 
 ## Teoretisk grund
 
@@ -62,8 +60,8 @@ Ramverket utvecklas inom arbetspaket 1 (AP1) och testas av projektparterna under
 
 ## Version
 
-- **Taxonomi:** v1.5
-- **Tillsynslager:** v1.5
+- **Taxonomi:** v1.6
+- **Tillsynslager:** v1.6
 - **Taxonomi-utforskare:** arbetsversion
 
 ## Licens
