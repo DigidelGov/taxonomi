@@ -591,8 +591,7 @@ function renderOverview(){
   var sectionOrder=['Systembarri\u00e4rer','Oj\u00e4mlikhetsfaktorer','Bildning, egenmakt och delaktighet'];
   var sectionLabels={'Systembarri\u00e4rer':'1. Systembarri\u00e4rer','Oj\u00e4mlikhetsfaktorer':'2. Oj\u00e4mlikhetsfaktorer','Bildning, egenmakt och delaktighet':'3. Bildning, egenmakt och delaktighet'};
   var html='<div class="overview-page">';
-  html+='<div style="margin-bottom:20px"><div class="d-title" style="font-size:20px">\u00d6versikt \u2013 taxonomin</div>';
-  html+='<div class="iblock-c" style="color:var(--text-muted);margin-top:4px">3 sektioner \u00b7 '+Object.keys(CATEGORIES).length+' kategorier \u00b7 '+DATA.length+' underkategorier</div></div>';
+  html+='<div style="margin-bottom:20px"><div class="d-title" style="font-size:20px">\u00d6versikt \u2013 taxonomin</div></div>';
   html+='<div class="stats" style="margin-bottom:20px">';
   html+='<div class="stat" style="border:none;background:none;min-width:auto;padding:10px 8px"><div class="stat-label" style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em">Ansvarskedjan h\u00e5ller</div></div>';
   html+='<div class="stat nej" style="cursor:pointer'+(state.ovFilter==='Nej'?';box-shadow:0 0 0 2px var(--nej)':'')+'" data-ov-lucka="Nej"><div class="stat-val">'+counts.nej+'</div><div class="stat-label">Nej</div></div>';
