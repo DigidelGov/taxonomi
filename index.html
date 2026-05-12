@@ -405,7 +405,18 @@ function renderUnderkatDetail(idx){
     html+='</div>';
   }
 
-  // 3. Rådgivning enskild + Rådgivning utförare (två ramar sida vid sida)
+  // 3. I praktiken (egen ram)
+  if(d.tillsynsskydd_finns){
+    html+='<div class="uk-block '+dSn+'">';
+    html+='<div class="uk-block-t">I praktiken</div>';
+    html+='<div class="uk-block-c">'+escMd(d.tillsynsskydd_finns)+'</div>';
+    html+='</div>';
+  }
+
+  // Tunn linje
+  html+='<hr class="uk-line">';
+
+  // 4. Rådgivning enskild + Rådgivning utförare (två ramar sida vid sida)
   if(d.radgivning_enskild||d.radgivning_utforare){
     html+='<div class="uk-grid-2">';
     if(d.radgivning_enskild){
@@ -420,17 +431,6 @@ function renderUnderkatDetail(idx){
       html+='<div class="uk-block-c">'+escMd(d.radgivning_utforare)+'</div>';
       html+='</div>';
     }
-    html+='</div>';
-  }
-
-  // Tunn linje
-  html+='<hr class="uk-line">';
-
-  // 4. I praktiken (egen ram)
-  if(d.tillsynsskydd_finns){
-    html+='<div class="uk-block '+dSn+'">';
-    html+='<div class="uk-block-t">I praktiken</div>';
-    html+='<div class="uk-block-c">'+escMd(d.tillsynsskydd_finns)+'</div>';
     html+='</div>';
   }
 
