@@ -8,7 +8,7 @@ Ramverket kartlägger var det allmänna brister i att säkerställa att rättigh
 
 Öppna **[taxonomi-utforskaren](https://digidelgov.github.io/taxonomi/)** för att utforska ramverket, version 1.6.
 
-Utforskaren visar alla 74 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exempel på en situation med hänvisningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri.
+Utforskaren visar alla 75 underkategorier fördelade på tre sektioner och 18 kategorier. Respektive underkategori presenteras med ett exempel på en situation med hänvisningar till rådgivning, lagstöd och eventuell tillsyn. Samtliga exempel vilar på dokumenterad empiri.
 
 ## Ramverkets struktur
 
@@ -25,12 +25,13 @@ Ramverket är organiserat i tre sektioner:
 Varje underkategori har ett operativt lager med:
 
 - **Exempel på situation** — vad som sker, i invånarens egna ord
-- **Lagstöd** — vilka lagar som borde skydda den enskilde
-- **Tillsynsmyndighet** — vem som ansvarar
-- **Tillsynslucka** — om tillsynen fungerar (Ja/Delvis/Nej) och varför
-- **Rådgivning** — var invånaren och utföraren kan vända sig
-- **Tvist** — var invånaren kan överklaga eller anmäla
+- **Vad lagen säger om situationen** — vilka lagar som borde skydda den enskilde
+- **I praktiken** — vad kunskapsunderlag beskriver om den faktiska situationen
+- **Granskande aktörer** — relaterad tillsyn eller andra insatser
+- **Vägledning för den enskilde** — var invånaren kan vända sig
+- **Vägledning för utföraren** — var utföraren kan vända sig
 - **Bakgrund och fakta** — forskning, granskningar och rapporter som bekräftar barriären
+- **Om ansvarskedjan håller** — ja/delvis/nej och varför
 
 ## Teoretisk grund
 
