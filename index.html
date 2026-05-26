@@ -413,6 +413,30 @@ function renderUnderkatDetail(idx){
     html+='</div>';
   }
 
+  // 3b. Bakgrund och fakta (utan ram) - direkt under I praktiken för spårbarhet
+  if(d.empirisk_kalla){
+    html+='<div class="uk-empiri">';
+    html+='<div class="uk-block-t">Bakgrund och fakta</div>';
+    var sources=d.empirisk_kalla.split('|').map(function(s){return s.trim()}).filter(function(s){return s});
+    sources.forEach(function(src){
+      var dblColonIdx=src.indexOf('::');
+      var titleHtml,bodyHtml='';
+      if(dblColonIdx>0){
+        titleHtml=esc(src.substring(0,dblColonIdx).trim());
+        bodyHtml=esc(src.substring(dblColonIdx+2).trim());
+      } else {
+        titleHtml=esc(src);
+      }
+      html+='<div class="uk-empiri-row">';
+      html+='<div class="uk-empiri-title">'+titleHtml+'</div>';
+      if(bodyHtml){
+        html+='<div class="uk-empiri-body">'+bodyHtml+'</div>';
+      }
+      html+='</div>';
+    });
+    html+='</div>';
+  }
+
   // Tunn linje
   html+='<hr class="uk-line">';
 
@@ -440,33 +464,6 @@ function renderUnderkatDetail(idx){
     html+='<div class="uk-block '+dSn+'">';
     html+='<div class="uk-block-t">'+aktorLabel+'</div>';
     html+='<div class="uk-block-c">'+escMd(d.tillsynsmyndighet)+'</div>';
-    html+='</div>';
-  }
-
-  // Tunn linje
-  html+='<hr class="uk-line">';
-
-  // 6. Bakgrund och fakta (utan ram)
-  if(d.empirisk_kalla){
-    html+='<div class="uk-empiri">';
-    html+='<div class="uk-block-t">Bakgrund och fakta</div>';
-    var sources=d.empirisk_kalla.split('|').map(function(s){return s.trim()}).filter(function(s){return s});
-    sources.forEach(function(src){
-      var dblColonIdx=src.indexOf('::');
-      var titleHtml,bodyHtml='';
-      if(dblColonIdx>0){
-        titleHtml=esc(src.substring(0,dblColonIdx).trim());
-        bodyHtml=esc(src.substring(dblColonIdx+2).trim());
-      } else {
-        titleHtml=esc(src);
-      }
-      html+='<div class="uk-empiri-row">';
-      html+='<div class="uk-empiri-title">'+titleHtml+'</div>';
-      if(bodyHtml){
-        html+='<div class="uk-empiri-body">'+bodyHtml+'</div>';
-      }
-      html+='</div>';
-    });
     html+='</div>';
   }
 
